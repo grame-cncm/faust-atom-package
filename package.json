@@ -1,0 +1,12 @@
+{
+  "name": "language-faust",
+  "description": "faust language support in Atom",
+  "version": "0.1.0",
+  "license": "MIT",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "repository":"https://github.com/grame-cncm/faust-atom-package",
+  "readme": "Faust language support in Atom. Adds syntax highlighting and snippets for the Faust programming language."
+  }
