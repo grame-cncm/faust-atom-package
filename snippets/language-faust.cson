@@ -14,6 +14,13 @@
   'component':
     'prefix': 'component'
     'body': 'component("${1:name}.lib")$0'
+  'program':
+    'prefix': 'pro'
+    'body': """
+    import("stdfaust.lib");
+    
+    process = ${1:expression};$0
+    """
   'process':
     'prefix': 'process'
     'body': "process = ${1:expression};$0"
