@@ -11,153 +11,165 @@
 	'mth_octave_spectral_level6e':
 		'prefix': 'mth_octave_spectral_level6e'
 		'body': 'an.mth_octave_spectral_level6e'
-	'third_octave_analyzer':
-		'prefix': 'third_octave_analyzer'
-		'body': 'an.third_octave_analyzer'
-	'half_octave_analyzer':
-		'prefix': 'half_octave_analyzer'
-		'body': 'an.half_octave_analyzer'
-	'third_octave_filterbank':
-		'prefix': 'third_octave_filterbank'
-		'body': 'an.third_octave_filterbank'
-	'half_octave_filterbank':
-		'prefix': 'half_octave_filterbank'
-		'body': 'an.half_octave_filterbank'
+	'[third|half]_octave_[analyzer|filterbank]':
+		'prefix': '[third|half]_octave_[analyzer|filterbank]'
+		'body': 'an.[third|half]_octave_[analyzer|filterbank]'
 	'analyzer':
 		'prefix': 'analyzer'
 		'body': 'an.analyzer'
+	'ifft':
+		'prefix': 'ifft'
+		'body': 'an.ifft'
 	'amp_follower_ar':
 		'prefix': 'amp_follower_ar'
 		'body': 'an.amp_follower_ar'
 	'samp2sec':
 		'prefix': 'samp2sec'
-		'body': 'an.samp2sec'
+		'body': 'ba.samp2sec'
 	'sec2samp':
 		'prefix': 'sec2samp'
-		'body': 'an.sec2samp'
+		'body': 'ba.sec2samp'
 	'db2linear':
 		'prefix': 'db2linear'
-		'body': 'an.db2linear'
+		'body': 'ba.db2linear'
 	'linear2db':
 		'prefix': 'linear2db'
-		'body': 'an.linear2db'
+		'body': 'ba.linear2db'
 	'lin2LogGain':
 		'prefix': 'lin2LogGain'
-		'body': 'an.lin2LogGain'
+		'body': 'ba.lin2LogGain'
 	'log2LinGain':
 		'prefix': 'log2LinGain'
-		'body': 'an.log2LinGain'
+		'body': 'ba.log2LinGain'
 	'tau2pole':
 		'prefix': 'tau2pole'
-		'body': 'an.tau2pole'
+		'body': 'ba.tau2pole'
 	'pole2tau':
 		'prefix': 'pole2tau'
-		'body': 'an.pole2tau'
+		'body': 'ba.pole2tau'
 	'midikey2hz':
 		'prefix': 'midikey2hz'
-		'body': 'an.midikey2hz'
+		'body': 'ba.midikey2hz'
+	'hz2midikey':
+		'prefix': 'hz2midikey'
+		'body': 'ba.hz2midikey'
 	'pianokey2hz':
 		'prefix': 'pianokey2hz'
-		'body': 'an.pianokey2hz'
+		'body': 'ba.pianokey2hz'
 	'hz2pianokey':
 		'prefix': 'hz2pianokey'
-		'body': 'an.hz2pianokey'
+		'body': 'ba.hz2pianokey'
 	'countdown':
 		'prefix': 'countdown'
-		'body': 'an.countdown'
+		'body': 'ba.countdown'
 	'countup':
 		'prefix': 'countup'
-		'body': 'an.countup'
+		'body': 'ba.countup'
 	'sweep':
 		'prefix': 'sweep'
-		'body': 'an.sweep'
+		'body': 'ba.sweep'
 	'time':
 		'prefix': 'time'
-		'body': 'an.time'
+		'body': 'ba.time'
 	'tempo':
 		'prefix': 'tempo'
-		'body': 'an.tempo'
+		'body': 'ba.tempo'
 	'period':
 		'prefix': 'period'
-		'body': 'an.period'
+		'body': 'ba.period'
 	'pulse':
 		'prefix': 'pulse'
-		'body': 'an.pulse'
+		'body': 'ba.pulse'
 	'pulsen':
 		'prefix': 'pulsen'
-		'body': 'an.pulsen'
+		'body': 'ba.pulsen'
+	'cycle':
+		'prefix': 'cycle'
+		'body': 'ba.cycle'
 	'beat':
 		'prefix': 'beat'
-		'body': 'an.beat'
+		'body': 'ba.beat'
 	'pulse_countup':
 		'prefix': 'pulse_countup'
-		'body': 'an.pulse_countup'
+		'body': 'ba.pulse_countup'
 	'pulse_countdown':
 		'prefix': 'pulse_countdown'
-		'body': 'an.pulse_countdown'
+		'body': 'ba.pulse_countdown'
 	'pulse_countup_loop':
 		'prefix': 'pulse_countup_loop'
-		'body': 'an.pulse_countup_loop'
+		'body': 'ba.pulse_countup_loop'
+	'resetCtr':
+		'prefix': 'resetCtr'
+		'body': 'ba.resetCtr'
 	'pulse_countdown_loop':
 		'prefix': 'pulse_countdown_loop'
-		'body': 'an.pulse_countdown_loop'
+		'body': 'ba.pulse_countdown_loop'
 	'count':
 		'prefix': 'count'
-		'body': 'an.count'
+		'body': 'ba.count'
 	'take':
 		'prefix': 'take'
-		'body': 'an.take'
+		'body': 'ba.take'
 	'subseq':
 		'prefix': 'subseq'
-		'body': 'an.subseq'
+		'body': 'ba.subseq'
 	'if':
 		'prefix': 'if'
-		'body': 'an.if'
+		'body': 'ba.if'
 	'selector':
 		'prefix': 'selector'
-		'body': 'an.selector'
+		'body': 'ba.selector'
 	'selectn':
 		'prefix': 'selectn'
-		'body': 'an.selectn'
+		'body': 'ba.selectn'
 	'select2stereo':
 		'prefix': 'select2stereo'
-		'body': 'an.select2stereo'
+		'body': 'ba.select2stereo'
 	'latch':
 		'prefix': 'latch'
-		'body': 'an.latch'
+		'body': 'ba.latch'
 	'sAndH':
 		'prefix': 'sAndH'
-		'body': 'an.sAndH'
+		'body': 'ba.sAndH'
+	'downSample':
+		'prefix': 'downSample'
+		'body': 'ba.downSample'
 	'peakhold':
 		'prefix': 'peakhold'
-		'body': 'an.peakhold'
+		'body': 'ba.peakhold'
 	'peakholder':
 		'prefix': 'peakholder'
-		'body': 'an.peakholder'
+		'body': 'ba.peakholder'
 	'impulsify':
 		'prefix': 'impulsify'
-		'body': 'an.impulsify'
+		'body': 'ba.impulsify'
 	'automat':
 		'prefix': 'automat'
-		'body': 'an.automat'
+		'body': 'ba.automat'
 	'bpf':
 		'prefix': 'bpf'
-		'body': 'an.bpf'
+		'body': 'ba.bpf'
+	'listInterp':
+		'prefix': 'listInterp'
+		'body': 'ba.listInterp'
 	'bypass1':
 		'prefix': 'bypass1'
-		'body': 'an.bypass1'
+		'body': 'ba.bypass1'
 	'bypass2':
 		'prefix': 'bypass2'
-		'body': 'an.bypass2'
+		'body': 'ba.bypass2'
+	'bypass1to2':
+		'prefix': 'bypass1to2'
+		'body': 'ba.bypass1to2'
 	'toggle':
 		'prefix': 'toggle'
-		'body': 'an.toggle'
+		'body': 'ba.toggle'
 	'on_and_off':
 		'prefix': 'on_and_off'
-		'body': 'an.on_and_off'
+		'body': 'ba.on_and_off'
 	'selectoutn':
 		'prefix': 'selectoutn'
-		'body': 'an.selectoutn'
+		'body': 'ba.selectoutn'
 	'compressor_mono':
 		'prefix': 'compressor_mono'
 		'body': 'co.compressor_mono'
@@ -203,9 +215,6 @@
 	'compressor_demo':
 		'prefix': 'compressor_demo'
 		'body': 'dm.compressor_demo'
-	'exciter':
-		'prefix': 'exciter'
-		'body': 'dm.exciter'
 	'moog_vcf_demo':
 		'prefix': 'moog_vcf_demo'
 		'body': 'dm.moog_vcf_demo'
@@ -215,18 +224,12 @@
 	'crybaby_demo':
 		'prefix': 'crybaby_demo'
 		'body': 'dm.crybaby_demo'
-	'vocoder_demo':
-		'prefix': 'vocoder_demo'
-		'body': 'dm.vocoder_demo'
 	'flanger_demo':
 		'prefix': 'flanger_demo'
 		'body': 'dm.flanger_demo'
 	'phaser2_demo':
 		'prefix': 'phaser2_demo'
 		'body': 'dm.phaser2_demo'
-	'freeverb_demo':
-		'prefix': 'freeverb_demo'
-		'body': 'dm.freeverb_demo'
 	'stereo_reverb_tester':
 		'prefix': 'stereo_reverb_tester'
 		'body': 'dm.stereo_reverb_tester'
@@ -245,18 +248,72 @@
 	'virtual_analog_oscillator_demo':
 		'prefix': 'virtual_analog_oscillator_demo'
 		'body': 'dm.virtual_analog_oscillator_demo'
+	'exciter':
+		'prefix': 'exciter'
+		'body': 'dm.exciter'
+	'vocoder_demo':
+		'prefix': 'vocoder_demo'
+		'body': 'dm.vocoder_demo'
+	'freeverb_demo':
+		'prefix': 'freeverb_demo'
+		'body': 'dm.freeverb_demo'
+	'dx7_ampf':
+		'prefix': 'dx7_ampf'
+		'body': 'dx.dx7_ampf'
+	'dx7_egraterisef':
+		'prefix': 'dx7_egraterisef'
+		'body': 'dx.dx7_egraterisef'
+	'dx7_egraterisepercf':
+		'prefix': 'dx7_egraterisepercf'
+		'body': 'dx.dx7_egraterisepercf'
+	'dx7_egratedecayf':
+		'prefix': 'dx7_egratedecayf'
+		'body': 'dx.dx7_egratedecayf'
+	'dx7_egratedecaypercf':
+		'prefix': 'dx7_egratedecaypercf'
+		'body': 'dx.dx7_egratedecaypercf'
+	'dx7_eglv2peakf':
+		'prefix': 'dx7_eglv2peakf'
+		'body': 'dx.dx7_eglv2peakf'
+	'dx7_velsensf':
+		'prefix': 'dx7_velsensf'
+		'body': 'dx.dx7_velsensf'
+	'dx7_fdbkscalef':
+		'prefix': 'dx7_fdbkscalef'
+		'body': 'dx.dx7_fdbkscalef'
+	'dx7_op':
+		'prefix': 'dx7_op'
+		'body': 'dx.dx7_op'
+	'dx7_algo':
+		'prefix': 'dx7_algo'
+		'body': 'dx.dx7_algo'
+	'dx7_ui':
+		'prefix': 'dx7_ui'
+		'body': 'dx.dx7_ui'
 	'smoothEnvelope':
 		'prefix': 'smoothEnvelope'
 		'body': 'en.smoothEnvelope'
 	'ar':
 		'prefix': 'ar'
 		'body': 'en.ar'
+	'arfe':
+		'prefix': 'arfe'
+		'body': 'en.arfe'
+	'are':
+		'prefix': 'are'
+		'body': 'en.are'
 	'asr':
 		'prefix': 'asr'
 		'body': 'en.asr'
 	'adsr':
 		'prefix': 'adsr'
 		'body': 'en.adsr'
+	'dx7envelope':
+		'prefix': 'dx7envelope'
+		'body': 'en.dx7envelope'
+	'adsre':
+		'prefix': 'adsre'
+		'body': 'en.adsre'
 	'zero':
 		'prefix': 'zero'
 		'body': 'fi.zero'
@@ -389,7 +446,6 @@
 	'lowpass0_highpass1':
 		'prefix': 'lowpass0_highpass1'
 		'body': 'fi.lowpass0_highpass1'
-
 	'lowpass3e':
 		'prefix': 'lowpass3e'
 		'body': 'fi.lowpass3e'
@@ -476,121 +532,124 @@
 		'body': 'ho.rotate'
 	'SR':
 		'prefix': 'SR'
-		'body': 'ho.SR'
+		'body': 'ma.SR'
 	'BS':
 		'prefix': 'BS'
-		'body': 'ho.BS'
+		'body': 'ma.BS'
 	'PI':
 		'prefix': 'PI'
-		'body': 'ho.PI'
+		'body': 'ma.PI'
 	'FTZ':
 		'prefix': 'FTZ'
-		'body': 'ho.FTZ'
+		'body': 'ma.FTZ'
 	'neg':
 		'prefix': 'neg'
-		'body': 'ho.neg'
+		'body': 'ma.neg'
 	'sub(x,y)':
 		'prefix': 'sub(x,y)'
-		'body': 'ho.sub(x,y)'
+		'body': 'ma.sub(x,y)'
 	'inv':
 		'prefix': 'inv'
-		'body': 'ho.inv'
+		'body': 'ma.inv'
 	'cbrt':
 		'prefix': 'cbrt'
-		'body': 'ho.cbrt'
+		'body': 'ma.cbrt'
 	'hypot':
 		'prefix': 'hypot'
-		'body': 'ho.hypot'
+		'body': 'ma.hypot'
 	'ldexp':
 		'prefix': 'ldexp'
-		'body': 'ho.ldexp'
+		'body': 'ma.ldexp'
 	'scalb':
 		'prefix': 'scalb'
-		'body': 'ho.scalb'
+		'body': 'ma.scalb'
 	'log1p':
 		'prefix': 'log1p'
-		'body': 'ho.log1p'
+		'body': 'ma.log1p'
 	'logb':
 		'prefix': 'logb'
-		'body': 'ho.logb'
+		'body': 'ma.logb'
 	'ilogb':
 		'prefix': 'ilogb'
-		'body': 'ho.ilogb'
+		'body': 'ma.ilogb'
 	'log2':
 		'prefix': 'log2'
-		'body': 'ho.log2'
+		'body': 'ma.log2'
 	'expm1':
 		'prefix': 'expm1'
-		'body': 'ho.expm1'
+		'body': 'ma.expm1'
 	'acosh':
 		'prefix': 'acosh'
-		'body': 'ho.acosh'
+		'body': 'ma.acosh'
 	'asinh':
 		'prefix': 'asinh'
-		'body': 'ho.asinh'
+		'body': 'ma.asinh'
 	'atanh':
 		'prefix': 'atanh'
-		'body': 'ho.atanh'
+		'body': 'ma.atanh'
 	'sinh':
 		'prefix': 'sinh'
-		'body': 'ho.sinh'
+		'body': 'ma.sinh'
 	'cosh':
 		'prefix': 'cosh'
-		'body': 'ho.cosh'
+		'body': 'ma.cosh'
 	'tanh':
 		'prefix': 'tanh'
-		'body': 'ho.tanh'
+		'body': 'ma.tanh'
 	'erf':
 		'prefix': 'erf'
-		'body': 'ho.erf'
+		'body': 'ma.erf'
 	'erfc':
 		'prefix': 'erfc'
-		'body': 'ho.erfc'
+		'body': 'ma.erfc'
 	'gamma':
 		'prefix': 'gamma'
-		'body': 'ho.gamma'
+		'body': 'ma.gamma'
 	'lgamma':
 		'prefix': 'lgamma'
-		'body': 'ho.lgamma'
+		'body': 'ma.lgamma'
 	'J0':
 		'prefix': 'J0'
-		'body': 'ho.J0'
+		'body': 'ma.J0'
 	'J1':
 		'prefix': 'J1'
-		'body': 'ho.J1'
+		'body': 'ma.J1'
 	'Jn':
 		'prefix': 'Jn'
-		'body': 'ho.Jn'
+		'body': 'ma.Jn'
 	'Y0':
 		'prefix': 'Y0'
-		'body': 'ho.Y0'
+		'body': 'ma.Y0'
 	'Y1':
 		'prefix': 'Y1'
-		'body': 'ho.Y1'
+		'body': 'ma.Y1'
 	'Yn':
 		'prefix': 'Yn'
-		'body': 'ho.Yn'
+		'body': 'ma.Yn'
 	'np2':
 		'prefix': 'np2'
-		'body': 'ho.np2'
+		'body': 'ma.np2'
 	'frac':
 		'prefix': 'frac'
-		'body': 'ho.frac'
+		'body': 'ma.frac'
+	'modulo':
+		'prefix': 'modulo'
+		'body': 'ma.modulo'
 	'isnan':
 		'prefix': 'isnan'
-		'body': 'ho.isnan'
+		'body': 'ma.isnan'
 	'chebychev':
 		'prefix': 'chebychev'
-		'body': 'ho.chebychev'
+		'body': 'ma.chebychev'
 	'chebychevpoly':
 		'prefix': 'chebychevpoly'
-		'body': 'ho.chebychevpoly'
+		'body': 'ma.chebychevpoly'
 	'diffn':
 		'prefix': 'diffn'
-		'body': 'ho.diffn'
+		'body': 'ma.diffn'
 	'signum':
 		'prefix': 'signum'
-		'body': 'ho.signum'
+		'body': 'ma.signum'
 	'cubicnl':
 		'prefix': 'cubicnl'
 		'body': 'ef.cubicnl'
@@ -606,7 +665,6 @@
 	'piano_dispersion_filter':
 		'prefix': 'piano_dispersion_filter'
 		'body': 'ef.piano_dispersion_filter'
-
 	'stereo_width':
 		'prefix': 'stereo_width'
 		'body': 'ef.stereo_width'
@@ -643,6 +701,9 @@
 	'velvet_noise_vm':
 		'prefix': 'velvet_noise_vm'
 		'body': 'no.velvet_noise_vm'
+	'gnoise':
+		'prefix': 'gnoise'
+		'body': 'no.gnoise'
 	'sinwaveform':
 		'prefix': 'sinwaveform'
 		'body': 'os.sinwaveform'
@@ -652,9 +713,15 @@
 	'phasor':
 		'prefix': 'phasor'
 		'body': 'os.phasor'
+	'hs_phasor':
+		'prefix': 'hs_phasor'
+		'body': 'os.hs_phasor'
 	'oscsin':
 		'prefix': 'oscsin'
 		'body': 'os.oscsin'
+	'hs_oscsin':
+		'prefix': 'hs_oscsin'
+		'body': 'os.hs_oscsin'
 	'osccos':
 		'prefix': 'osccos'
 		'body': 'os.osccos'
@@ -670,6 +737,9 @@
 	'lf_pulsetrainpos':
 		'prefix': 'lf_pulsetrainpos'
 		'body': 'os.lf_pulsetrainpos'
+	'lf_pulsetrain':
+		'prefix': 'lf_pulsetrain'
+		'body': 'os.lf_pulsetrain'
 	'lf_squarewavepos':
 		'prefix': 'lf_squarewavepos'
 		'body': 'os.lf_squarewavepos'
@@ -685,9 +755,6 @@
 	'lf_sawpos_phase':
 		'prefix': 'lf_sawpos_phase'
 		'body': 'os.lf_sawpos_phase'
-	'sawN':
-		'prefix': 'sawN'
-		'body': 'os.sawN'
 	'sawNp':
 		'prefix': 'sawNp'
 		'body': 'os.sawNp'
@@ -784,18 +851,441 @@
 	'phaser2_stereo':
 		'prefix': 'phaser2_stereo'
 		'body': 'pf.phaser2_stereo'
+	'speedOfSound':
+		'prefix': 'speedOfSound'
+		'body': 'pm.speedOfSound'
+	'maxLength':
+		'prefix': 'maxLength'
+		'body': 'pm.maxLength'
+	'f2l':
+		'prefix': 'f2l'
+		'body': 'pm.f2l'
+	'l2f':
+		'prefix': 'l2f'
+		'body': 'pm.l2f'
+	'l2s':
+		'prefix': 'l2s'
+		'body': 'pm.l2s'
+	'basicBlock':
+		'prefix': 'basicBlock'
+		'body': 'pm.basicBlock'
+	'chain':
+		'prefix': 'chain'
+		'body': 'pm.chain'
+	'inLeftWave':
+		'prefix': 'inLeftWave'
+		'body': 'pm.inLeftWave'
+	'inRightWave':
+		'prefix': 'inRightWave'
+		'body': 'pm.inRightWave'
+	'in':
+		'prefix': 'in'
+		'body': 'pm.in'
+	'outLeftWave':
+		'prefix': 'outLeftWave'
+		'body': 'pm.outLeftWave'
+	'outRightWave':
+		'prefix': 'outRightWave'
+		'body': 'pm.outRightWave'
+	'out':
+		'prefix': 'out'
+		'body': 'pm.out'
+	'terminations':
+		'prefix': 'terminations'
+		'body': 'pm.terminations'
+	'lTermination':
+		'prefix': 'lTermination'
+		'body': 'pm.lTermination'
+	'rTermination':
+		'prefix': 'rTermination'
+		'body': 'pm.rTermination'
+	'closeIns':
+		'prefix': 'closeIns'
+		'body': 'pm.closeIns'
+	'closeOuts':
+		'prefix': 'closeOuts'
+		'body': 'pm.closeOuts'
+	'endChain':
+		'prefix': 'endChain'
+		'body': 'pm.endChain'
+	'waveguideN':
+		'prefix': 'waveguideN'
+		'body': 'pm.waveguideN'
+	'waveguide':
+		'prefix': 'waveguide'
+		'body': 'pm.waveguide'
+	'bridgeFilter':
+		'prefix': 'bridgeFilter'
+		'body': 'pm.bridgeFilter'
+	'modeFilter':
+		'prefix': 'modeFilter'
+		'body': 'pm.modeFilter'
+	'stringSegment':
+		'prefix': 'stringSegment'
+		'body': 'pm.stringSegment'
+	'openString':
+		'prefix': 'openString'
+		'body': 'pm.openString'
+	'nylonString':
+		'prefix': 'nylonString'
+		'body': 'pm.nylonString'
+	'steelString':
+		'prefix': 'steelString'
+		'body': 'pm.steelString'
+	'openStringPick':
+		'prefix': 'openStringPick'
+		'body': 'pm.openStringPick'
+	'openStringPickUp':
+		'prefix': 'openStringPickUp'
+		'body': 'pm.openStringPickUp'
+	'openStringPickDown':
+		'prefix': 'openStringPickDown'
+		'body': 'pm.openStringPickDown'
+	'ksReflexionFilter':
+		'prefix': 'ksReflexionFilter'
+		'body': 'pm.ksReflexionFilter'
+	'rStringRigidTermination':
+		'prefix': 'rStringRigidTermination'
+		'body': 'pm.rStringRigidTermination'
+	'lStringRigidTermination':
+		'prefix': 'lStringRigidTermination'
+		'body': 'pm.lStringRigidTermination'
+	'elecGuitarBridge':
+		'prefix': 'elecGuitarBridge'
+		'body': 'pm.elecGuitarBridge'
+	'elecGuitarNuts':
+		'prefix': 'elecGuitarNuts'
+		'body': 'pm.elecGuitarNuts'
+	'guitarBridge':
+		'prefix': 'guitarBridge'
+		'body': 'pm.guitarBridge'
+	'guitarNuts':
+		'prefix': 'guitarNuts'
+		'body': 'pm.guitarNuts'
+	'idealString':
+		'prefix': 'idealString'
+		'body': 'pm.idealString'
+	'ks':
+		'prefix': 'ks'
+		'body': 'pm.ks'
+	'ks_ui_MIDI':
+		'prefix': 'ks_ui_MIDI'
+		'body': 'pm.ks_ui_MIDI'
+	'elecGuitarModel':
+		'prefix': 'elecGuitarModel'
+		'body': 'pm.elecGuitarModel'
+	'elecGuitar':
+		'prefix': 'elecGuitar'
+		'body': 'pm.elecGuitar'
+	'elecGuitar_ui_MIDI':
+		'prefix': 'elecGuitar_ui_MIDI'
+		'body': 'pm.elecGuitar_ui_MIDI'
+	'guitarBody':
+		'prefix': 'guitarBody'
+		'body': 'pm.guitarBody'
+	'guitarModel':
+		'prefix': 'guitarModel'
+		'body': 'pm.guitarModel'
+	'guitar':
+		'prefix': 'guitar'
+		'body': 'pm.guitar'
+	'guitar_ui_MIDI':
+		'prefix': 'guitar_ui_MIDI'
+		'body': 'pm.guitar_ui_MIDI'
+	'nylonGuitarModel':
+		'prefix': 'nylonGuitarModel'
+		'body': 'pm.nylonGuitarModel'
+	'nylonGuitar':
+		'prefix': 'nylonGuitar'
+		'body': 'pm.nylonGuitar'
+	'nylonGuitar_ui_MIDI':
+		'prefix': 'nylonGuitar_ui_MIDI'
+		'body': 'pm.nylonGuitar_ui_MIDI'
+	'bowTable':
+		'prefix': 'bowTable'
+		'body': 'pm.bowTable'
+	'violinBowTable':
+		'prefix': 'violinBowTable'
+		'body': 'pm.violinBowTable'
+	'bowInteraction':
+		'prefix': 'bowInteraction'
+		'body': 'pm.bowInteraction'
+	'violinBow':
+		'prefix': 'violinBow'
+		'body': 'pm.violinBow'
+	'violinBowedString':
+		'prefix': 'violinBowedString'
+		'body': 'pm.violinBowedString'
+	'violinNuts':
+		'prefix': 'violinNuts'
+		'body': 'pm.violinNuts'
+	'violinBridge':
+		'prefix': 'violinBridge'
+		'body': 'pm.violinBridge'
+	'violinBody':
+		'prefix': 'violinBody'
+		'body': 'pm.violinBody'
+	'violinModel':
+		'prefix': 'violinModel'
+		'body': 'pm.violinModel'
+	'violinModel_ui':
+		'prefix': 'violinModel_ui'
+		'body': 'pm.violinModel_ui'
+	'violin_ui_MIDI':
+		'prefix': 'violin_ui_MIDI'
+		'body': 'pm.violin_ui_MIDI'
+	'openTube':
+		'prefix': 'openTube'
+		'body': 'pm.openTube'
+	'reedTable':
+		'prefix': 'reedTable'
+		'body': 'pm.reedTable'
+	'fluteJetTable':
+		'prefix': 'fluteJetTable'
+		'body': 'pm.fluteJetTable'
+	'brassLipsTable':
+		'prefix': 'brassLipsTable'
+		'body': 'pm.brassLipsTable'
+	'clarinetReed':
+		'prefix': 'clarinetReed'
+		'body': 'pm.clarinetReed'
+	'clarinetMouthPiece':
+		'prefix': 'clarinetMouthPiece'
+		'body': 'pm.clarinetMouthPiece'
+	'brassLips':
+		'prefix': 'brassLips'
+		'body': 'pm.brassLips'
+	'fluteEmbouchure':
+		'prefix': 'fluteEmbouchure'
+		'body': 'pm.fluteEmbouchure'
+	'wBell':
+		'prefix': 'wBell'
+		'body': 'pm.wBell'
+	'fluteHead':
+		'prefix': 'fluteHead'
+		'body': 'pm.fluteHead'
+	'fluteFoot':
+		'prefix': 'fluteFoot'
+		'body': 'pm.fluteFoot'
+	'clarinetModel':
+		'prefix': 'clarinetModel'
+		'body': 'pm.clarinetModel'
+	'clarinetModel_ui':
+		'prefix': 'clarinetModel_ui'
+		'body': 'pm.clarinetModel_ui'
+	'clarinet_ui':
+		'prefix': 'clarinet_ui'
+		'body': 'pm.clarinet_ui'
+	'clarinet_ui_MIDI':
+		'prefix': 'clarinet_ui_MIDI'
+		'body': 'pm.clarinet_ui_MIDI'
+	'brassModel':
+		'prefix': 'brassModel'
+		'body': 'pm.brassModel'
+	'brassModel_ui':
+		'prefix': 'brassModel_ui'
+		'body': 'pm.brassModel_ui'
+	'brass_ui':
+		'prefix': 'brass_ui'
+		'body': 'pm.brass_ui'
+	'brass_ui_MIDI':
+		'prefix': 'brass_ui_MIDI'
+		'body': 'pm.brass_ui_MIDI'
+	'fluteModel':
+		'prefix': 'fluteModel'
+		'body': 'pm.fluteModel'
+	'fluteModel_ui':
+		'prefix': 'fluteModel_ui'
+		'body': 'pm.fluteModel_ui'
+	'flute_ui':
+		'prefix': 'flute_ui'
+		'body': 'pm.flute_ui'
+	'flute_ui_MIDI':
+		'prefix': 'flute_ui_MIDI'
+		'body': 'pm.flute_ui_MIDI'
+	'impulseExcitation':
+		'prefix': 'impulseExcitation'
+		'body': 'pm.impulseExcitation'
+	'strikeModel':
+		'prefix': 'strikeModel'
+		'body': 'pm.strikeModel'
+	'strike':
+		'prefix': 'strike'
+		'body': 'pm.strike'
+	'pluckString':
+		'prefix': 'pluckString'
+		'body': 'pm.pluckString'
+	'blower':
+		'prefix': 'blower'
+		'body': 'pm.blower'
+	'blower_ui':
+		'prefix': 'blower_ui'
+		'body': 'pm.blower_ui'
+	'djembeModel':
+		'prefix': 'djembeModel'
+		'body': 'pm.djembeModel'
+	'djembe':
+		'prefix': 'djembe'
+		'body': 'pm.djembe'
+	'djembe_ui_MIDI':
+		'prefix': 'djembe_ui_MIDI'
+		'body': 'pm.djembe_ui_MIDI'
+	'marimbaBarModel':
+		'prefix': 'marimbaBarModel'
+		'body': 'pm.marimbaBarModel'
+	'marimbaResTube':
+		'prefix': 'marimbaResTube'
+		'body': 'pm.marimbaResTube'
+	'marimbaModel':
+		'prefix': 'marimbaModel'
+		'body': 'pm.marimbaModel'
+	'marimba':
+		'prefix': 'marimba'
+		'body': 'pm.marimba'
+	'marimba_ui_MIDI':
+		'prefix': 'marimba_ui_MIDI'
+		'body': 'pm.marimba_ui_MIDI'
+	'churchBellModel':
+		'prefix': 'churchBellModel'
+		'body': 'pm.churchBellModel'
+	'churchBell':
+		'prefix': 'churchBell'
+		'body': 'pm.churchBell'
+	'churchBell_ui':
+		'prefix': 'churchBell_ui'
+		'body': 'pm.churchBell_ui'
+	'englishBellModel':
+		'prefix': 'englishBellModel'
+		'body': 'pm.englishBellModel'
+	'englishBell':
+		'prefix': 'englishBell'
+		'body': 'pm.englishBell'
+	'englishBell_ui':
+		'prefix': 'englishBell_ui'
+		'body': 'pm.englishBell_ui'
+	'frenchBellModel':
+		'prefix': 'frenchBellModel'
+		'body': 'pm.frenchBellModel'
+	'frenchBell':
+		'prefix': 'frenchBell'
+		'body': 'pm.frenchBell'
+	'frenchBell_ui':
+		'prefix': 'frenchBell_ui'
+		'body': 'pm.frenchBell_ui'
+	'germanBellModel':
+		'prefix': 'germanBellModel'
+		'body': 'pm.germanBellModel'
+	'germanBell':
+		'prefix': 'germanBell'
+		'body': 'pm.germanBell'
+	'germanBell_ui':
+		'prefix': 'germanBell_ui'
+		'body': 'pm.germanBell_ui'
+	'russianBellModel':
+		'prefix': 'russianBellModel'
+		'body': 'pm.russianBellModel'
+	'russianBell':
+		'prefix': 'russianBell'
+		'body': 'pm.russianBell'
+	'russianBell_ui':
+		'prefix': 'russianBell_ui'
+		'body': 'pm.russianBell_ui'
+	'standardBellModel':
+		'prefix': 'standardBellModel'
+		'body': 'pm.standardBellModel'
+	'standardBell':
+		'prefix': 'standardBell'
+		'body': 'pm.standardBell'
+	'standardBell_ui':
+		'prefix': 'standardBell_ui'
+		'body': 'pm.standardBell_ui'
+	'formantValues':
+		'prefix': 'formantValues'
+		'body': 'pm.formantValues'
+	'voiceGender':
+		'prefix': 'voiceGender'
+		'body': 'pm.voiceGender'
+	'skirtWidthMultiplier':
+		'prefix': 'skirtWidthMultiplier'
+		'body': 'pm.skirtWidthMultiplier'
+	'autobendFreq':
+		'prefix': 'autobendFreq'
+		'body': 'pm.autobendFreq'
+	'vocalEffort':
+		'prefix': 'vocalEffort'
+		'body': 'pm.vocalEffort'
+	'fof':
+		'prefix': 'fof'
+		'body': 'pm.fof'
+	'fofSH':
+		'prefix': 'fofSH'
+		'body': 'pm.fofSH'
+	'fofCycle':
+		'prefix': 'fofCycle'
+		'body': 'pm.fofCycle'
+	'fofSmooth':
+		'prefix': 'fofSmooth'
+		'body': 'pm.fofSmooth'
+	'formantFilterFofCycle':
+		'prefix': 'formantFilterFofCycle'
+		'body': 'pm.formantFilterFofCycle'
+	'formantFilterFofSmooth':
+		'prefix': 'formantFilterFofSmooth'
+		'body': 'pm.formantFilterFofSmooth'
+	'formantFilterBP':
+		'prefix': 'formantFilterBP'
+		'body': 'pm.formantFilterBP'
+	'formantFilterbank':
+		'prefix': 'formantFilterbank'
+		'body': 'pm.formantFilterbank'
+	'formantFilterbankFofCycle':
+		'prefix': 'formantFilterbankFofCycle'
+		'body': 'pm.formantFilterbankFofCycle'
+	'formantFilterbankFofSmooth':
+		'prefix': 'formantFilterbankFofSmooth'
+		'body': 'pm.formantFilterbankFofSmooth'
+	'formantFilterbankBP':
+		'prefix': 'formantFilterbankBP'
+		'body': 'pm.formantFilterbankBP'
+	'SFFormantModel':
+		'prefix': 'SFFormantModel'
+		'body': 'pm.SFFormantModel'
+	'SFFormantModelFofCycle':
+		'prefix': 'SFFormantModelFofCycle'
+		'body': 'pm.SFFormantModelFofCycle'
+	'SFFormantModelFofSmooth':
+		'prefix': 'SFFormantModelFofSmooth'
+		'body': 'pm.SFFormantModelFofSmooth'
+	'SFFormantModelBP':
+		'prefix': 'SFFormantModelBP'
+		'body': 'pm.SFFormantModelBP'
+	'SFFormantModelFofCycle_ui':
+		'prefix': 'SFFormantModelFofCycle_ui'
+		'body': 'pm.SFFormantModelFofCycle_ui'
+	'SFFormantModelFofSmooth_ui':
+		'prefix': 'SFFormantModelFofSmooth_ui'
+		'body': 'pm.SFFormantModelFofSmooth_ui'
+	'SFFormantModelBP_ui':
+		'prefix': 'SFFormantModelBP_ui'
+		'body': 'pm.SFFormantModelBP_ui'
+	'SFFormantModelFofCycle_ui_MIDI':
+		'prefix': 'SFFormantModelFofCycle_ui_MIDI'
+		'body': 'pm.SFFormantModelFofCycle_ui_MIDI'
+	'SFFormantModelFofSmooth_ui_MIDI':
+		'prefix': 'SFFormantModelFofSmooth_ui_MIDI'
+		'body': 'pm.SFFormantModelFofSmooth_ui_MIDI'
+	'SFFormantModelBP_ui_MIDI':
+		'prefix': 'SFFormantModelBP_ui_MIDI'
+		'body': 'pm.SFFormantModelBP_ui_MIDI'
+	'allpassNL':
+		'prefix': 'allpassNL'
+		'body': 'pm.allpassNL'
 	'jcrev':
 		'prefix': 'jcrev'
 		'body': 're.jcrev'
 	'satrev':
 		'prefix': 'satrev'
 		'body': 're.satrev'
-	'mono_freeverb':
-		'prefix': 'mono_freeverb'
-		'body': 're.mono_freeverb'
-	'stereo_freeverb':
-		'prefix': 'stereo_freeverb'
-		'body': 're.stereo_freeverb'
 	'fdnrev0':
 		'prefix': 'fdnrev0'
 		'body': 're.fdnrev0'
@@ -808,6 +1298,12 @@
 	'zita_rev1_ambi':
 		'prefix': 'zita_rev1_ambi'
 		'body': 're.zita_rev1_ambi'
+	'mono_freeverb':
+		'prefix': 'mono_freeverb'
+		'body': 're.mono_freeverb'
+	'stereo_freeverb':
+		'prefix': 'stereo_freeverb'
+		'body': 're.stereo_freeverb'
 	'cross':
 		'prefix': 'cross'
 		'body': 'ro.cross'
@@ -838,9 +1334,6 @@
 	'interpolate':
 		'prefix': 'interpolate'
 		'body': 'si.interpolate'
-	'smooth':
-		'prefix': 'smooth'
-		'body': 'si.smooth'
 	'smoo':
 		'prefix': 'smoo'
 		'body': 'si.smoo'
@@ -853,12 +1346,21 @@
 	'bsmooth':
 		'prefix': 'bsmooth'
 		'body': 'si.bsmooth'
-	'lag_ud':
-		'prefix': 'lag_ud'
-		'body': 'si.lag_ud'
 	'dot':
 		'prefix': 'dot'
 		'body': 'si.dot'
+	'smooth':
+		'prefix': 'smooth'
+		'body': 'si.smooth'
+	'cbus':
+		'prefix': 'cbus'
+		'body': 'si.cbus'
+	'cmul':
+		'prefix': 'cmul'
+		'body': 'si.cmul'
+	'lag_ud':
+		'prefix': 'lag_ud'
+		'body': 'si.lag_ud'
 	'panner':
 		'prefix': 'panner'
 		'body': 'sp.panner'
